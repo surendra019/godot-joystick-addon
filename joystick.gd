@@ -53,7 +53,11 @@ func _ready():
 		)
 	_set_variables()
 
-
+func _physics_process(delta):
+	if Engine.is_editor_hint():
+		_set_variables()
+	
+	
 func _set_variables():
 	back.size = Vector2(2*_big_circle_radius, 2*_big_circle_radius)
 	center_global = back.global_position + back.size/2

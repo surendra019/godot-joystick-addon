@@ -9,7 +9,7 @@ A customizable and easy-to-use virtual joystick addon for Godot, perfect for mob
 
 Here is a preview of how the joystick looks and functions in the game:
 
-![Joystick GIF](joystick demonst)
+![Joystick GIF](joystick.gif)
 
 
 ## Features

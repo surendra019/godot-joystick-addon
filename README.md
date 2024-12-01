@@ -4,6 +4,14 @@ A customizable and easy-to-use virtual joystick addon for Godot, perfect for mob
 
 ---
 
+
+### Joystick in Action
+
+Here is a preview of how the joystick looks and functions in the game:
+
+![Joystick GIF](joystick demonst)
+
+
 ## Features
 
 - **Customizable Appearance:** Easily change the color and style of joystick components to match your game's theme.

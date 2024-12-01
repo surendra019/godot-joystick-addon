@@ -1,12 +1,10 @@
 @tool
 extends EditorPlugin
 
-
+# adds teh custom node.
 func _enter_tree():
-	add_custom_type("Joystick", "Node2D", preload("res://addons/godot-joystick-addon-main/joystick.gd"), preload("res://addons/godot-joystick-addon-main/icon.png"))
-	pass
+	add_custom_type("VirtualJoystick", "Node2D", preload("res://addons/Virtual Joystick/joystick.gd"), preload("res://addons/Virtual Joystick/icon.png"))
 
-
+# removes the custom node.
 func _exit_tree():
-	remove_custom_type("Joystick")
-	pass
+	remove_custom_type("VirtualJoystick")

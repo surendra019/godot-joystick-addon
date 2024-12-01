@@ -22,10 +22,11 @@ A customizable and easy-to-use virtual joystick addon for Godot, perfect for mob
 ## Getting the Direction
 - Use the get_direction() function to get the current direction of the joystick. The returned value is a normalized Vector2 representing the joystick's direction.
 
-```func _process(delta):
+```
+func _process(delta):
     var direction = $VirtualJoystick.get_direction()
     if direction != Vector2.ZERO:
         move_and_slide(direction * SPEED)
-
+```
 
 
